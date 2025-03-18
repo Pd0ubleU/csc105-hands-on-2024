@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f7f7f7;
+    font-family: Arial, sans-serif;
+  }
+  h1{
+    font-size: 50px;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Cart {
+    padding: 100px;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);  
+  }
+  
+  
+  
+  /* Input field */
+  input {
+    padding: 8px;
+    margin-right: 12px;
+    width: 70%;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    background-color: #ffffff;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #0fcc2e;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2dad65;
+  }
+  
+  /* List container */
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  /* List item styles */
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap;
+    padding: 10px;
+    margin: 9px 0;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    background-color: #f9f9f9;
+    word-break: break-all;
+  }
+  
+  li.bought {
+    text-decoration: line-through;
+    color: gray;
+    background-color: #d4edda;
+  }
+  
+  /* ช่องไฟปุ่ม */
+  .edit, .remove {
+    padding: 8px 12px;
+    min-width: 70px;
+    cursor: pointer;
+    text-align: center;
+  
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-left: 5px;
+  }
+  
+  
+  /*ปุ่ม */
+  .edit {
+    background-color: #f9c844;
+    color: black;
+  }
+  
+  .edit:hover {
+    background-color: #db922c;
+  }
+  
+  .remove {
+    background-color: #cb3d3d;
+    color: white;
+  }
+  
+  .remove:hover {
+    background-color: #a22929;
+  } 
